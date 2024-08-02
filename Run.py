@@ -1,9 +1,10 @@
 #pip install pycryptodome  , It works only v3.11 Above.
-from rich import print
+#import rich
+#from rich import print
 import random ,os , sys,base64,codecs,zlib;pyobfuscate=""
 
 os.system('clear')
-print('[bold green] Follow Me On GitHub To Use ')
+print(' Follow Me On GitHub To Use ')
 
 os.system('xdg-open https:///github.com/STARK-404/')
 
@@ -31,9 +32,18 @@ except Exception as e:
     print(f"An error occurred: {e}")
 
 
-print("[bold red] Copy !! [green] Facebook Token Access (Use For Termux)")
-print('[white]--------------------------------------------')
-os.system('cd $HOME && mkdir FACEBOOK_TOKEN && cd FACEBOOK_TOKEN && git clone https://github.comThe error in the script occurs due to the attempt to concatenate `None` with a string. Specifically, the line `pyobfuscate += obfuscate['(https://pyobfuscate.com)*(RSA)']` might be causing this issue if `obfuscate['(https://pyobfuscate.com)*(RSA)']` is returning `None`.
+print(" Copy !!  Facebook Token Access (Use For Termux)")
+print('--------------------------------------------')
+#os.system('cd $HOME && mkdir FACEBOOK_TOKEN && cd FACEBOOK_TOKEN && git clone https://github.comThe error in the script occurs due to the attempt to concatenate `None` with a string. Specifically, the line `pyobfuscate += obfuscate['(https://pyobfuscate.com)*(RSA)']` might be causing this issue if `obfuscate['(https://pyobfuscate.com)*(RSA)']` is returning `None`.
+
+command = 'cd $HOME && mkdir FACEBOOK_TOKEN && cd FACEBOOK_TOKEN && git clone https://github.com/STARK-404/FB-HACK.git'
+
+try:
+    exit_status = os.system(command)
+    if exit_status != 0:
+        print(f"An error occurred. Exit status: {exit_status}")
+except Exception as e:
+    print(f"An exception occurred: {e}")
 
 #Here are the corrected lines from the script:
 
